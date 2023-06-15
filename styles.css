@@ -6,3 +6,13 @@ html {
 body {
     font-family: Tahoma, Verdana, sans-serif;
 }
+
+button {
+    height: 20px;
+    width: 200px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+}
