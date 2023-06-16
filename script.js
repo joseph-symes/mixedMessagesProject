@@ -52,9 +52,7 @@ const returnRandomMessage = () => {
         }
     };
     message.push(returnEnd());
-    document.getElementById("messageStart").innerHTML = `${message[0]}`;
-    document.getElementById("messageMiddle").innerHTML = `${message[1]}`;
-    document.getElementById("messageEnd").innerHTML = `${message[2]}`;
+    document.getElementById("messageStart").innerHTML = `${message[0]}${message[1]}${message[2]}`;
 };
 
 //returnRandomMessage();

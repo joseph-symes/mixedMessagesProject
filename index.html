@@ -8,11 +8,18 @@
     <script src="script.js"></script>
 </head>
 <body>
-    <h1>Mixed Messages Project - Codecademy</h1>
-    <div class="flex-container">
-        <p id="messageStart" onmouseover="returnRandomMessage()">MOUSEOVER ME</p>
-        <p id="messageMiddle" onmouseover="returnRandomMessage()">MOUSEOVER ME</p>
-        <p id="messageEnd" onmouseover="returnRandomMessage()">MOUSEOVER ME</p>
-    </div>
+    <header>
+        <div class="flex-container">
+            <h1>Mixed Messages Project - Codecademy</h1>
+        </div>
+    </header>
+    <main>
+        <div class="flex-container">
+            <p id="messageStart">???</p>
+        </div>
+        <div class="flex-container">
+            <button id="messageStartButton" onclick="returnRandomMessage()">Generate message</button>
+        </div>
+    </main>
 </body>
 </html>
